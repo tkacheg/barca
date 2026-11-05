@@ -958,7 +958,7 @@ footer {
     color: #ffffffb3;
 }
 
-.footer-top a {
+.footer-top .mail {
     display: block;
     padding-bottom: 15px;
     margin-top: 10px;
@@ -966,6 +966,11 @@ footer {
     background-image: url('../assets/icons/footer-line.svg');
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+
+.phone{
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .footer-top>img {
