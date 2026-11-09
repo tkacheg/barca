@@ -24,15 +24,9 @@
 }
 
 body {
-    min-width: 1920px;
     color: #0d1b3e;
     font-family: Montserrat;
     font-size: 18px;
-}
-
-div[id],
-footer {
-    scroll-margin-top: 125px;
 }
 
 a {
@@ -78,7 +72,7 @@ h3 {
     color: #8a002d;
 }
 
-.text>a {
+.text a {
     color: #004d98;
     margin-bottom: 7px;
 }
@@ -93,7 +87,6 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    min-width: 1920px;
     z-index: 10;
     color: white;
     background-color: #0d1b3ef2;
@@ -139,7 +132,7 @@ header {
     border-radius: 15px;
 }
 
-.header-menu a:first-child,
+
 .header-menu a:hover {
     background-color: #ffffff14;
 }
@@ -149,7 +142,6 @@ header {
     border: 5px solid #ffffff14;
     border-radius: 17px;
     background-color: #ffffff26;
-    transition: background-color 0.2s;
 }
 
 .header-button:hover {
@@ -200,7 +192,7 @@ h1 span {
     color: #f8c214;
 }
 
-.banner-text>p {
+.banner-text p {
     width: 609px;
     margin-top: 37px;
     color: #ffffffb3;
@@ -246,14 +238,14 @@ h1 span {
     border-radius: 35px;
 }
 
-.banner-live>h3 {
+.banner-live h3 {
     font-family: Montserrat;
     font-size: 23px;
     font-weight: 500;
     color: #fcc618;
 }
 
-.banner-live>p {
+.banner-live p {
     margin-top: 12px;
     font-size: 17px;
     color: #ffffff5c;
@@ -331,7 +323,7 @@ h1 span {
     height: 681px;
 }
 
-.news-big>img {
+.news-big img {
     width: 878px;
     height: 681px;
     object-fit: cover;
@@ -348,7 +340,7 @@ h1 span {
     height: 330px;
 }
 
-.news-small>img {
+.news-small img {
     width: 620px;
     height: 330px;
     object-fit: cover;
@@ -413,7 +405,7 @@ h1 span {
     margin-bottom: 30px;
 }
 
-.team-title div>p {
+.team-title div p {
     color: #f4c542;
     font-size: 14px;
     margin-bottom: 10px;
@@ -424,7 +416,7 @@ h1 span {
     font-size: 42px;
 }
 
-.team-title>p {
+.team-title p {
     font-size: 13px;
     color: #aab6cb;
     margin-bottom: 7px;
@@ -470,7 +462,7 @@ h1 span {
     overflow: hidden;
 }
 
-.card-team>img {
+.card-team img {
     width: auto;
     height: 102px;
     max-width: 112px;
@@ -487,7 +479,7 @@ h1 span {
     background-color: #07152ea3;
 }
 
-.card-text>span {
+.card-text span {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,19 +603,19 @@ h1 span {
     object-fit: contain;
 }
 
-.player-info>span {
+.player-info span {
     color: #edbb00;
     font-size: 12px;
     letter-spacing: 1px;
 }
 
-.player-info>h3 {
+.player-info h3 {
     font-family: Inter;
     font-size: 23px;
     margin: 12px 0;
 }
 
-.player-info>p {
+.player-info p {
     color: #c1cde1;
     font-size: 14px;
     line-height: 21px;
@@ -756,7 +748,7 @@ h1 span {
     text-align: center;
 }
 
-.matches-block>strong {
+.matches-block strong {
     width: 57px;
     padding: 8px 16px;
     border-radius: 50px;
@@ -809,7 +801,7 @@ h1 span {
     max-width: 460px;
     max-height: 460px;
     object-fit: contain;
-    transition: opacity 0.2s;
+    opacity: 0.2s;
 }
 
 .award-info {
@@ -826,7 +818,6 @@ h1 span {
     text-align: center;
     color: white;
     opacity: 0;
-    transition: opacity 0.2s;
 }
 
 .award-info h3 {
@@ -908,18 +899,16 @@ h1 span {
     width: 1480px;
 }
 
-.partners .container>div {
+.partners .container div {
     height: 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('../assets/icons/partner-line.svg');
-    background-position: bottom;
-    background-repeat: no-repeat;
+    border-bottom: 1px solid #ffffff;
 }
 
-.partners .container>div:last-child {
-    background-image: none;
+.partners .container div:last-child {
+    border-bottom: 1px solid transparent;
 }
 
 .partners h2 {
@@ -963,17 +952,15 @@ footer {
     padding-bottom: 15px;
     margin-top: 10px;
     font-size: 48px;
-    background-image: url('../assets/icons/footer-line.svg');
-    background-repeat: no-repeat;
-    background-position: bottom left;
+    border-bottom: 1px solid #ffffff;
 }
 
-.phone{
+.phone {
     font-size: 16px;
     line-height: 24px;
 }
 
-.footer-top>img {
+.footer-top img {
     margin-right: 50px;
     margin-top: 13px;
 }
@@ -1006,7 +993,7 @@ footer {
     height: 31px;
     background-image: url('../assets/icons/social.svg');
     background-repeat: no-repeat;
-    transition: transform 0.2s;
+    transition: 0.2s;
 }
 
 .social .vk {
